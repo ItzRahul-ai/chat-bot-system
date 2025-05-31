@@ -54,231 +54,307 @@ function chat() {
     }
     else if (finalInput == "how are you" || finalInput == "how r u" || finalInput == "how you doing" || finalInput == "how is it going") {
         botPrint.innerText = "I'm great, thank you! How about you?";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what's your name" || finalInput == "your name" || finalInput == "who are you" || finalInput == "may i know your name") {
         botPrint.innerText = "I'm your chatbot assistant.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what can you do" || finalInput == "what do you do" || finalInput == "how can you help me") {
         botPrint.innerText = "I can help you with chatting, answering questions, and soon even more!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "tell me a joke" || finalInput == "joke" || finalInput == "funny joke" || finalInput == "make me laugh") {
         botPrint.innerText = "Why don’t skeletons fight each other? They don’t have the guts!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what time is it" || finalInput == "current time" || finalInput == "time please" || finalInput == "tell me time") {
         botPrint.innerText = "The current time is: " + new Date().toLocaleTimeString();
+        userPrint.innerText = input;
     }
     else if (finalInput == "what day is today" || finalInput == "what is the date" || finalInput == "today date" || finalInput == "tell me date") {
         botPrint.innerText = "Today's date is: " + new Date().toLocaleDateString();
+        userPrint.innerText = input;
     }
     else if (finalInput == "where are you from" || finalInput == "your location" || finalInput == "where do you live") {
         botPrint.innerText = "I live in the cloud! 🌐";
+        userPrint.innerText = input;
     }
     else if (finalInput == "thank you" || finalInput == "thanks" || finalInput == "thx" || finalInput == "thank you so much") {
         botPrint.innerText = "You're welcome!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "bye" || finalInput == "goodbye" || finalInput == "see you" || finalInput == "talk to you later") {
         botPrint.innerText = "Goodbye! Have a great day!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "time" || finalInput == "what time is it" || finalInput == "current time" || finalInput == "show time" || finalInput == "tell me the time") {
         botPrint.innerText = "Current time is: " + new Date().toLocaleTimeString();
+        userPrint.innerText = input;
     }
     else if (finalInput == "date" || finalInput == "today date" || finalInput == "what is the date" || finalInput == "current date" || finalInput == "date today") {
         botPrint.innerText = "Today's date is: " + new Date().toLocaleDateString();
+        userPrint.innerText = input;
     }
     else if (finalInput == "joke" || finalInput == "tell me a joke" || finalInput == "make me laugh" || finalInput == "funny joke" || finalInput == "say a joke") {
         botPrint.innerText = "Why don’t skeletons fight each other? They don’t have the guts!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what can you do" || finalInput == "your functions" || finalInput == "help me" || finalInput == "how can you help" || finalInput == "your skills" || finalInput == "what do you do") {
         botPrint.innerText = "I can chat, help answer questions, and support basic tasks!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "how are you" || finalInput == "are you okay" || finalInput == "how do you feel" || finalInput == "you fine" || finalInput == "what's up") {
         botPrint.innerText = "I'm doing great, thanks! How about you?";
+        userPrint.innerText = input;
     }
     else if (finalInput == "capital of india" || finalInput == "what is capital of india" || finalInput == "indian capital") {
         botPrint.innerText = "The capital of India is New Delhi.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "prime minister of india" || finalInput == "who is pm of india" || finalInput == "india's prime minister" || finalInput == "current pm") {
         botPrint.innerText = "The Prime Minister of India is Narendra Modi.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "i love food" || finalInput == "food lover" || finalInput == "i like food" || finalInput == "do you like food" || finalInput == "favorite food") {
         botPrint.innerText = "I love food chats! What's your favorite dish?";
+        userPrint.innerText = input;
     }
     else if (finalInput == "do you like pizza" || finalInput == "is pizza good" || finalInput == "pizza fan" || finalInput == "tell me about pizza") {
         botPrint.innerText = "Pizza is a classic! Do you like it too?";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what should i eat" || finalInput == "suggest me food" || finalInput == "what to eat" || finalInput == "best dinner") {
         botPrint.innerText = "I can't eat, but I'd recommend pasta!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what is ai" || finalInput == "tell me about ai" || finalInput == "explain artificial intelligence" || finalInput == "ai meaning") {
         botPrint.innerText = "AI is fascinating. It's helping the world evolve!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what is chatgpt" || finalInput == "who made you" || finalInput == "chatgpt info" || finalInput == "chatgpt developer") {
         botPrint.innerText = "ChatGPT is a language model developed by OpenAI.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "latest iphone" || finalInput == "iphone news" || finalInput == "new iphone" || finalInput == "apple iphone") {
         botPrint.innerText = "The latest iPhone has amazing camera features.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best place to travel" || finalInput == "suggest travel destination" || finalInput == "where to travel" || finalInput == "romantic places") {
         botPrint.innerText = "Paris is known as the city of love!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "do you travel" || finalInput == "have you travelled" || finalInput == "do you go on trips") {
         botPrint.innerText = "I can't travel, but I'd love to hear your travel stories!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "travel in india" || finalInput == "places in india" || finalInput == "indian travel spots") {
         botPrint.innerText = "India has incredible diversity and beautiful places to visit.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what is love" || finalInput == "define love" || finalInput == "meaning of love" || finalInput == "explain love") {
         botPrint.innerText = "Love is a beautiful feeling. Tell me more!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "favorite fruit" || finalInput == "best fruit" || finalInput == "fruit you like" || finalInput == "healthy fruits") {
         botPrint.innerText = "I love mangoes, they’re delicious!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what is blockchain" || finalInput == "explain blockchain" || finalInput == "blockchain meaning" || finalInput == "how does blockchain work") {
         botPrint.innerText = "Blockchain is a decentralized ledger technology used in cryptocurrencies.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "top tourist spots" || finalInput == "best places to visit" || finalInput == "popular travel destinations") {
         botPrint.innerText = "Some great spots include Bali, Paris, and New York!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "how to propose" || finalInput == "love advice" || finalInput == "relationship tips") {
         botPrint.innerText = "Be honest and heartfelt, that always works best.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best programming language" || finalInput == "learn programming" || finalInput == "coding languages") {
         botPrint.innerText = "Python is great for beginners and powerful enough for pros!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "football" || finalInput == "soccer" || finalInput == "favorite sport") {
         botPrint.innerText = "Football is exciting! Do you have a favorite team?";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best movie" || finalInput == "movie recommendations" || finalInput == "good movies") {
         botPrint.innerText = "You should watch Inception or The Shawshank Redemption!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "how to stay fit" || finalInput == "fitness tips" || finalInput == "workout ideas") {
         botPrint.innerText = "Regular exercise and a balanced diet are key!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "motivational quotes" || finalInput == "inspire me" || finalInput == "words of encouragement") {
         botPrint.innerText = "Believe you can and you're halfway there.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what is cloud computing" || finalInput == "cloud computing meaning" || finalInput == "explain cloud computing") {
         botPrint.innerText = "Cloud computing allows you to store and access data over the internet.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best restaurants" || finalInput == "good restaurants" || finalInput == "restaurant near me" || finalInput == "recommend food places") {
         botPrint.innerText = "I suggest trying local food joints for the best flavors!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "latest tech news" || finalInput == "tech updates" || finalInput == "new technology") {
         botPrint.innerText = "Tech is evolving fast with AI and VR leading the way!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "travel tips" || finalInput == "how to travel cheap" || finalInput == "budget travel") {
         botPrint.innerText = "Plan ahead, book early, and travel off-season to save money.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "how to say i love you" || finalInput == "love confession tips" || finalInput == "express love") {
         botPrint.innerText = "Speak from the heart, and be genuine.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "programming help" || finalInput == "code help" || finalInput == "debugging tips") {
         botPrint.innerText = "Check your syntax carefully and use online resources!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best sports player" || finalInput == "top athletes" || finalInput == "famous sportspeople") {
         botPrint.innerText = "Legends like Messi and Serena Williams inspire millions.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "new movies" || finalInput == "movie release" || finalInput == "upcoming movies") {
         botPrint.innerText = "Keep an eye out for the latest blockbuster releases this year!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "daily workout" || finalInput == "fitness routine" || finalInput == "exercise plan") {
         botPrint.innerText = "Consistency is key—start with 30 minutes a day!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "quotes about success" || finalInput == "success sayings" || finalInput == "how to succeed") {
         botPrint.innerText = "Success is the sum of small efforts repeated day in and day out.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what is cryptocurrency" || finalInput == "crypto meaning" || finalInput == "explain bitcoin") {
         botPrint.innerText = "Cryptocurrency is a digital currency secured by cryptography.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best desserts" || finalInput == "sweet food" || finalInput == "favorite dessert") {
         botPrint.innerText = "Chocolate cake and ice cream are classic favorites!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "how does 5g work" || finalInput == "what is 5g" || finalInput == "5g technology") {
         botPrint.innerText = "5G is the fifth generation of mobile networks, offering faster speeds and lower latency.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "top travel apps" || finalInput == "best travel apps" || finalInput == "travel planning apps") {
         botPrint.innerText = "Apps like Google Maps, Airbnb, and TripIt make travel easy and fun!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "how to impress crush" || finalInput == "dating tips" || finalInput == "how to get a girlfriend") {
         botPrint.innerText = "Be yourself, listen well, and show genuine interest.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "learn java" || finalInput == "java tutorials" || finalInput == "how to code in java") {
         botPrint.innerText = "Start with basics like variables, loops, and objects. Practice a lot!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "olympics" || finalInput == "sports events" || finalInput == "international sports") {
         botPrint.innerText = "The Olympics gather athletes worldwide every four years to compete!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best action movies" || finalInput == "action movie suggestions" || finalInput == "top action films") {
         botPrint.innerText = "Try movies like John Wick, Mad Max, and The Dark Knight.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "yoga benefits" || finalInput == "why do yoga" || finalInput == "yoga for beginners") {
         botPrint.innerText = "Yoga improves flexibility, strength, and mental calmness.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "how to stay motivated" || finalInput == "motivation tips" || finalInput == "keep me motivated") {
         botPrint.innerText = "Set clear goals, celebrate small wins, and keep a positive mindset.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what is machine learning" || finalInput == "explain machine learning" || finalInput == "ml meaning") {
         botPrint.innerText = "Machine learning lets computers learn from data without explicit programming.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "healthy snacks" || finalInput == "snack ideas" || finalInput == "best snacks") {
         botPrint.innerText = "Try nuts, fruits, or yogurt for a healthy snack!";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what is iot" || finalInput == "internet of things" || finalInput == "iot meaning") {
         botPrint.innerText = "IoT connects everyday devices to the internet for smarter living.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "cheap flights" || finalInput == "flight deals" || finalInput == "best flight booking sites") {
         botPrint.innerText = "Websites like Skyscanner and Kayak help you find great deals.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "how to say sorry" || finalInput == "apology tips" || finalInput == "best way to apologize") {
         botPrint.innerText = "Be sincere and honest, and take responsibility.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best python tutorials" || finalInput == "learn python" || finalInput == "python coding help") {
         botPrint.innerText = "Check out Codecademy or freeCodeCamp for beginner-friendly lessons.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "famous athletes" || finalInput == "best sports stars" || finalInput == "sports legends") {
         botPrint.innerText = "Legends like Michael Jordan and Usain Bolt inspire many.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "latest movies" || finalInput == "new movie releases" || finalInput == "what movies to watch") {
         botPrint.innerText = "Check out streaming platforms for the latest hits.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "home workout" || finalInput == "exercise at home" || finalInput == "fitness without gym") {
         botPrint.innerText = "Bodyweight exercises like push-ups and squats are effective.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "inspirational quotes" || finalInput == "quotes to live by" || finalInput == "daily motivation") {
         botPrint.innerText = "‘The only limit to our realization of tomorrow is our doubts of today.’";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what is virtual reality" || finalInput == "vr meaning" || finalInput == "explain vr") {
         botPrint.innerText = "VR immerses you in a simulated environment using special gear.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best coffee" || finalInput == "coffee types" || finalInput == "coffee recommendations") {
         botPrint.innerText = "Espresso and cold brew are popular choices among coffee lovers.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what is ai" || finalInput == "artificial intelligence meaning" || finalInput == "explain ai") {
         botPrint.innerText = "AI is technology that simulates human intelligence processes.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "top travel destinations 2025" || finalInput == "popular vacation spots" || finalInput == "best places to travel") {
         botPrint.innerText = "Japan, Italy, and New Zealand are trending travel destinations.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "how to say i love you in different languages" || finalInput == "love in french" || finalInput == "love phrases") {
         botPrint.innerText = "'Je t’aime' means 'I love you' in French.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best coding websites" || finalInput == "learn coding online" || finalInput == "coding practice sites") {
         botPrint.innerText = "Try sites like LeetCode, HackerRank, and freeCodeCamp.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "world cup winners" || finalInput == "fifa champions" || finalInput == "best soccer teams") {
         botPrint.innerText = "Brazil and Germany have won multiple FIFA World Cups.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best comedy movies" || finalInput == "funny films" || finalInput == "comedy movie suggestions") {
         botPrint.innerText = "You might enjoy 'The Hangover' or 'Superbad'.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "benefits of meditation" || finalInput == "how to meditate" || finalInput == "meditation tips") {
         botPrint.innerText = "Meditation reduces stress and improves concentration.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "how to stay positive" || finalInput == "positivity tips" || finalInput == "stay motivated daily") {
         botPrint.innerText = "Focus on gratitude and surround yourself with positive people.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "what is cryptocurrency mining" || finalInput == "crypto mining meaning" || finalInput == "how to mine bitcoin") {
         botPrint.innerText = "Mining validates crypto transactions and creates new coins.";
+        userPrint.innerText = input;
     }
     else if (finalInput == "best pizza toppings" || finalInput == "favorite pizza" || finalInput == "pizza ideas") {
         botPrint.innerText = "Pepperoni, mushrooms, and extra cheese are always a hit!";
@@ -1594,7 +1670,7 @@ function chat() {
     else if (finalInput == "how to improve focus" || finalInput == "focus tips" || finalInput == "better concentration") {
         botPrint.innerText = "Minimize distractions and take breaks regularly.";
     }
-    else if (finalInput == "best ways to learn English" || finalInput == "learn English" || finalInput == "English tips") {
+    else if (finalInput == "best ways to learn English" || finalInput == "learn english" || finalInput == "english tips") {
         botPrint.innerText = "Practice speaking, reading, and writing daily.";
     }
     else if (finalInput == "how to start meditation" || finalInput == "meditation basics" || finalInput == "meditation for beginners") {
